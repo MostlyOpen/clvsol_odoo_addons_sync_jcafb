@@ -151,7 +151,7 @@
 	</record>
 	 
 	<record id="clv_external_sync_batch_member_survey_question_2" model="clv.external_sync.batch.member">
-		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_10"/>
+		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_00"/>
 		<field name="ref_id" ref="survey_question_survey_question_2_schedule"/>
 	</record>
 	 

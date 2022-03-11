@@ -9,6 +9,8 @@
 		<field name="model" eval="&quot;&quot;&quot;survey.user_input.line&quot;&quot;&quot;"/>
 		<field name="method" eval="&quot;&quot;&quot;_object_external_sync&quot;&quot;&quot;"/>
 		<field name="external_model" eval="&quot;&quot;&quot;survey.user_input.line&quot;&quot;&quot;"/>
+		<field name="enable_identification" eval="False"/>
+		<field name="enable_inclusion" eval="False"/>
 		<field name="enable_sync" eval="True"/>
 		<field name="enable_check_missing" eval="False"/>
 	</record>
@@ -125,7 +127,7 @@
 	</record>
 	 
 	<record id="clv_external_sync_batch_member_survey_user_input_line_3" model="clv.external_sync.batch.member">
-		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_30"/>
+		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_02"/>
 		<field name="ref_id" ref="survey_user_input_line_survey_user_input_line_3_schedule"/>
 	</record>
 	 

@@ -9,6 +9,9 @@
 		<field name="model" eval="&quot;&quot;&quot;survey.user_input&quot;&quot;&quot;"/>
 		<field name="method" eval="&quot;&quot;&quot;_object_external_sync&quot;&quot;&quot;"/>
 		<field name="external_model" eval="&quot;&quot;&quot;survey.user_input&quot;&quot;&quot;"/>
+		<field name="enable_identification" eval="False"/>
+		<field name="enable_inclusion" eval="False"/>
+		<field name="enable_sync" eval="True"/>
 		<field name="enable_check_missing" eval="False"/>
 	</record>
 	 
