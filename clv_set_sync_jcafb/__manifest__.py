@@ -16,7 +16,8 @@
     ],
     'data': [
         'data/set_sync.xml',
-        'data/set_element_sync.xml',
+        'data/set_element_1_sync.xml',
+        'data/set_element_2_sync.xml',
     ],
     'demo': [],
     'test': [],
