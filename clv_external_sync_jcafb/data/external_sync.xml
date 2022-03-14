@@ -12,6 +12,18 @@
 		<field name="name" eval="&quot;&quot;&quot;Default Batch [02]&quot;&quot;&quot;"/>
 	</record>
 	 
+	<record id="clv_external_sync_batch_default_04" model="clv.external_sync.batch">
+		<field name="name" eval="&quot;&quot;&quot;Default Batch [04]&quot;&quot;&quot;"/>
+	</record>
+	 
+	<record id="clv_external_sync_batch_default_06" model="clv.external_sync.batch">
+		<field name="name" eval="&quot;&quot;&quot;Default Batch [06]&quot;&quot;&quot;"/>
+	</record>
+	 
+	<record id="clv_external_sync_batch_default_08" model="clv.external_sync.batch">
+		<field name="name" eval="&quot;&quot;&quot;Default Batch [08]&quot;&quot;&quot;"/>
+	</record>
+	 
 	<record id="clv_external_sync_batch_default_10" model="clv.external_sync.batch">
 		<field name="name" eval="&quot;&quot;&quot;Default Batch [10]&quot;&quot;&quot;"/>
 	</record>
