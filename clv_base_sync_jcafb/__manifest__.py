@@ -16,7 +16,7 @@
     ],
     'data': [
         'data/res_users_migration.xml',
-        'data/res_users.xml',
+        'data/res_users_rec.xml',
     ],
     'demo': [],
     'test': [],
