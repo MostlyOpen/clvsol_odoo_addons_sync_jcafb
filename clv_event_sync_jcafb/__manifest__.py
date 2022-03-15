@@ -11,12 +11,13 @@
     'license': 'AGPL-3',
     'website': 'https://github.com/CLVsol',
     'depends': [
-        'clv_event_jcafb',
+        'clv_event',
         'clv_external_sync',
     ],
     'data': [
         'data/event_sync.xml',
-        'data/event_attendee_sync.xml',
+        'data/event_attendee_1_sync.xml',
+        'data/event_attendee_2_sync.xml',
     ],
     'demo': [],
     'test': [],
