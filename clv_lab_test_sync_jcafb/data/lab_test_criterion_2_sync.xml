@@ -10,7 +10,10 @@
 		<field name="method" eval="&quot;&quot;&quot;_object_external_sync&quot;&quot;&quot;"/>
 		<field name="method_args" eval="&quot;&quot;&quot;{'local_constants': {'active_log': False}}&quot;&quot;&quot;"/>
 		<field name="external_model" eval="&quot;&quot;&quot;clv.lab_test.criterion&quot;&quot;&quot;"/>
+		<field name="apply_domain_filter" eval="True"/>
+		<field name="domain_filter" eval="&quot;&quot;&quot;[('lab_test_type_id', '=', False)]&quot;&quot;&quot;"/>
 		<field name="enable_check_missing" eval="False"/>
+		<field name="force_inclusion" eval="True"/>
 	</record>
 	 
 	<record id="clv_lab_test_criterion_clv_lab_test_criterion_2_template_object_field_name" model="clv.external_sync.object_field">
@@ -39,14 +42,6 @@
 		<field name="sequence" eval="10"/>
 	</record>
 	 
-	<!--record id="clv_lab_test_criterion_clv_lab_test_criterion_2_template_object_field_unit_id" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;unit_id&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;unit_id&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="template_id" eval="clv_lab_test_criterion_clv_lab_test_criterion_2_template"/>
-		<field name="sequence" eval="10"/>
-	</record-->
-	 
 	<record id="clv_lab_test_criterion_clv_lab_test_criterion_2_template_object_field_sequence" model="clv.external_sync.object_field">
 		<field name="external_object_field" eval="&quot;&quot;&quot;sequence&quot;&quot;&quot;"/>
 		<field name="local_object_field" eval="&quot;&quot;&quot;sequence&quot;&quot;&quot;"/>
@@ -54,30 +49,6 @@
 		<field name="template_id" eval="clv_lab_test_criterion_clv_lab_test_criterion_2_template"/>
 		<field name="sequence" eval="10"/>
 	</record>
-	 
-	<!--record id="clv_lab_test_criterion_clv_lab_test_criterion_2_template_object_field_normal_range" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;normal_range&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;normal_range&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="template_id" eval="clv_lab_test_criterion_clv_lab_test_criterion_2_template"/>
-		<field name="sequence" eval="10"/>
-	</record-->
-	 
-	<!--record id="clv_lab_test_criterion_clv_lab_test_criterion_2_template_object_field_result_display" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;result_display&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;result_display&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="template_id" eval="clv_lab_test_criterion_clv_lab_test_criterion_2_template"/>
-		<field name="sequence" eval="10"/>
-	</record-->
-	 
-	<!--record id="clv_lab_test_criterion_clv_lab_test_criterion_2_template_object_field_report_display" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;report_display&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;report_display&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="template_id" eval="clv_lab_test_criterion_clv_lab_test_criterion_2_template"/>
-		<field name="sequence" eval="10"/>
-	</record-->
 	 
  	<record id="clv_lab_test_criterion_clv_lab_test_criterion_2_template_object_field_lab_test_type_id" model="clv.external_sync.object_field">
 		<field name="external_object_field" eval="&quot;&quot;&quot;lab_test_type_id&quot;&quot;&quot;"/>
@@ -124,7 +95,7 @@
 	</record>
 	 
 	<record id="clv_external_sync_batch_member_clv_lab_test_criterion_2" model="clv.external_sync.batch.member">
-		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_50"/>
+		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_30"/>
 		<field name="ref_id" ref="clv_lab_test_criterion_clv_lab_test_criterion_2_schedule"/>
 	</record>
 	 

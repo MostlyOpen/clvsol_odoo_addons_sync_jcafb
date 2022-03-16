@@ -11,6 +11,8 @@
 		<field name="method_args" eval="&quot;&quot;&quot;{'local_constants': {'active_log': False}}&quot;&quot;&quot;"/>
 		<field name="external_model" eval="&quot;&quot;&quot;clv.lab_test.type&quot;&quot;&quot;"/>
 		<field name="enable_check_missing" eval="False"/>
+		<field name="enable_identification" eval="True"/>
+		<field name="enable_sync" eval="False"/>
 	</record>
 	 
 	<record id="clv_lab_test_type_clv_lab_test_type_template_object_field_name" model="clv.external_sync.object_field">
@@ -42,6 +44,7 @@
 	<record id="clv_lab_test_type_clv_lab_test_type_template_object_field_date_inclusion" model="clv.external_sync.object_field">
 		<field name="external_object_field" eval="&quot;&quot;&quot;date_inclusion&quot;&quot;&quot;"/>
 		<field name="local_object_field" eval="&quot;&quot;&quot;date_inclusion&quot;&quot;&quot;"/>
+		<field name="inclusion" eval="True"/>
 		<field name="synchronization" eval="True"/>
 		<field name="template_id" eval="clv_lab_test_type_clv_lab_test_type_template"/>
 		<field name="sequence" eval="10"/>
@@ -66,6 +69,7 @@
 	<record id="clv_lab_test_type_clv_lab_test_type_template_object_field_phase_id" model="clv.external_sync.object_field">
 		<field name="external_object_field" eval="&quot;&quot;&quot;phase_id&quot;&quot;&quot;"/>
 		<field name="local_object_field" eval="&quot;&quot;&quot;phase_id&quot;&quot;&quot;"/>
+		<field name="inclusion" eval="True"/>
 		<field name="synchronization" eval="True"/>
 		<field name="template_id" eval="clv_lab_test_type_clv_lab_test_type_template"/>
 		<field name="sequence" eval="10"/>
@@ -74,6 +78,7 @@
 	<record id="clv_lab_test_type_clv_lab_test_type_template_object_field_active" model="clv.external_sync.object_field">
 		<field name="external_object_field" eval="&quot;&quot;&quot;active&quot;&quot;&quot;"/>
 		<field name="local_object_field" eval="&quot;&quot;&quot;active&quot;&quot;&quot;"/>
+		<field name="inclusion" eval="True"/>
 		<field name="synchronization" eval="True"/>
 		<field name="template_id" eval="clv_lab_test_type_clv_lab_test_type_template"/>
 		<field name="sequence" eval="10"/>
@@ -92,7 +97,7 @@
 	</record>
 	 
 	<record id="clv_external_sync_batch_member_clv_lab_test_type" model="clv.external_sync.batch.member">
-		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_10"/>
+		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_00"/>
 		<field name="ref_id" ref="clv_lab_test_type_clv_lab_test_type_schedule"/>
 	</record>
 	 
