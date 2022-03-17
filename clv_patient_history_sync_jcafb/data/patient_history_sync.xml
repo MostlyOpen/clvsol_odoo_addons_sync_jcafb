@@ -108,21 +108,21 @@
 		<field name="sequence" eval="10"/>
 	</record>
 	 
-	<record id="clv_patient_history_clv_patient_history_template_object_field_related_person_history_is_unavailable" model="clv.external_sync.object_field">
+	<!--record id="clv_patient_history_clv_patient_history_template_object_field_related_person_history_is_unavailable" model="clv.external_sync.object_field">
 		<field name="external_object_field" eval="&quot;&quot;&quot;related_person_history_is_unavailable&quot;&quot;&quot;"/>
 		<field name="local_object_field" eval="&quot;&quot;&quot;related_person_history_is_unavailable&quot;&quot;&quot;"/>
 		<field name="synchronization" eval="True"/>
 		<field name="template_id" eval="clv_patient_history_clv_patient_history_template"/>
 		<field name="sequence" eval="10"/>
-	</record>
+	</record-->
 	 
-	<record id="clv_patient_history_clv_patient_history_template_object_field_related_person_history_id" model="clv.external_sync.object_field">
+	<!--record id="clv_patient_history_clv_patient_history_template_object_field_related_person_history_id" model="clv.external_sync.object_field">
 		<field name="external_object_field" eval="&quot;&quot;&quot;related_person_history_id&quot;&quot;&quot;"/>
 		<field name="local_object_field" eval="&quot;&quot;&quot;related_person_history_id&quot;&quot;&quot;"/>
 		<field name="synchronization" eval="True"/>
 		<field name="template_id" eval="clv_patient_history_clv_patient_history_template"/>
 		<field name="sequence" eval="10"/>
-	</record>
+	</record-->
 	 
 	<record id="clv_patient_history_clv_patient_history_template_object_field_active" model="clv.external_sync.object_field">
 		<field name="external_object_field" eval="&quot;&quot;&quot;active&quot;&quot;&quot;"/>
