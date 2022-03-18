@@ -10,11 +10,10 @@
 		<field name="method" eval="&quot;&quot;&quot;_object_external_sync&quot;&quot;&quot;"/>
 		<!--field name="method_args" eval="&quot;&quot;&quot;{'local_constants': {'active_log': False, 'automatic_set_name': False}}&quot;&quot;&quot;"/-->
 		<field name="method_args" eval="&quot;&quot;&quot;{'local_constants': {'active_log': False}}&quot;&quot;&quot;"/>
-		<field name="sequence_code" eval="&quot;&quot;&quot;clv.residence.code&quot;&quot;&quot;"/>
+		<field name="sequence_code" eval="&quot;&quot;&quot;clv.address.code&quot;&quot;&quot;"/>
+		<field name="enable_sequence_code_sync" eval="True"/>
 		<field name="external_model" eval="&quot;&quot;&quot;clv.residence&quot;&quot;&quot;"/>
-		<!--field name="sequence_code" eval="&quot;&quot;&quot;clv.residence.code&quot;&quot;&quot;"/-->
 		<field name="enable_check_missing" eval="False"/>
-		<!--field name="enable_sequence_code_sync" eval="True"/-->
 	</record>
 	 
 	<record id="clv_residence_clv_residence_template_object_field_name" model="clv.external_sync.object_field">
