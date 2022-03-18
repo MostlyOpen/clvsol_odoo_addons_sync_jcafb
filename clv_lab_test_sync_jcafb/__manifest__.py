@@ -15,7 +15,8 @@
         'clv_external_sync',
     ],
     'data': [
-        'data/lab_test_type_sync.xml',
+        'data/lab_test_type_1_sync.xml',
+        'data/lab_test_type_2_sync.xml',
         'data/lab_test_type_parameter_sync.xml',
         # 'data/lab_test_export_xls_param_sync.xml',
         'data/lab_test_request_1_sync.xml',

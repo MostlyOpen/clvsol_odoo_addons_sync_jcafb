@@ -11,7 +11,7 @@
 		<field name="external_model" eval="&quot;&quot;&quot;clv.lab_test.type.parameter&quot;&quot;&quot;"/>
 		<field name="enable_check_missing" eval="False"/>
 		<field name="enable_identification" eval="True"/>
-		<field name="enable_sync" eval="False"/>
+		<field name="enable_sync" eval="True"/>
 	</record>
 	 
 	<record id="clv_lab_test_type_parameter_clv_lab_test_type_parameter_template_object_field_name" model="clv.external_sync.object_field">
