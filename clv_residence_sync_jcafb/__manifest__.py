@@ -17,7 +17,8 @@
     'data': [
         'data/residence_category_sync.xml',
         'data/residence_marker_sync.xml',
-        'data/residence_sync.xml',
+        'data/residence_1_sync.xml',
+        'data/residence_2_sync.xml',
     ],
     'demo': [],
     'test': [],
