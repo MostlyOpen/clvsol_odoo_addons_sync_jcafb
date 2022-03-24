@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!-- Copyright (C) 2013-Today  Carlos Eduardo Vercelino - CLVsol
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<odoo noupdate="0">
+ 
+	<record id="clv_person_relation_type_clv_person_relation_type_template" model="clv.external_sync.template">
+		<field name="name" eval="&quot;&quot;&quot;clv.person.relation.type (clv.person.relation.type)&quot;&quot;&quot;"/>
+		<field name="model" eval="&quot;&quot;&quot;clv.person.relation.type&quot;&quot;&quot;"/>
+		<field name="method" eval="&quot;&quot;&quot;_object_external_sync&quot;&quot;&quot;"/>
+		<field name="external_model" eval="&quot;&quot;&quot;clv.person.relation.type&quot;&quot;&quot;"/>
+		<field name="enable_check_missing" eval="False"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_clv_person_relation_type_template_object_field_name" model="clv.external_sync.object_field">
+		<field name="external_object_field" eval="&quot;&quot;&quot;name&quot;&quot;&quot;"/>
+		<field name="local_object_field" eval="&quot;&quot;&quot;name&quot;&quot;&quot;"/>
+		<field name="inclusion" eval="True"/>
+		<field name="synchronization" eval="True"/>
+		<field name="template_id" eval="clv_person_relation_type_clv_person_relation_type_template"/>
+		<field name="sequence" eval="10"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_clv_person_relation_type_template_object_field_person_category_left" model="clv.external_sync.object_field">
+		<field name="external_object_field" eval="&quot;&quot;&quot;person_category_left&quot;&quot;&quot;"/>
+		<field name="local_object_field" eval="&quot;&quot;&quot;person_category_left&quot;&quot;&quot;"/>
+		<field name="synchronization" eval="True"/>
+		<field name="template_id" eval="clv_person_relation_type_clv_person_relation_type_template"/>
+		<field name="sequence" eval="10"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_clv_person_relation_type_template_object_field_name_inverse" model="clv.external_sync.object_field">
+		<field name="external_object_field" eval="&quot;&quot;&quot;name_inverse&quot;&quot;&quot;"/>
+		<field name="local_object_field" eval="&quot;&quot;&quot;name_inverse&quot;&quot;&quot;"/>
+		<field name="inclusion" eval="True"/>
+		<field name="synchronization" eval="True"/>
+		<field name="template_id" eval="clv_person_relation_type_clv_person_relation_type_template"/>
+		<field name="sequence" eval="10"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_clv_person_relation_type_template_object_field_person_category_right" model="clv.external_sync.object_field">
+		<field name="external_object_field" eval="&quot;&quot;&quot;person_category_right&quot;&quot;&quot;"/>
+		<field name="local_object_field" eval="&quot;&quot;&quot;person_category_right&quot;&quot;&quot;"/>
+		<field name="synchronization" eval="True"/>
+		<field name="template_id" eval="clv_person_relation_type_clv_person_relation_type_template"/>
+		<field name="sequence" eval="10"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_clv_person_relation_type_template_object_field_allow_self" model="clv.external_sync.object_field">
+		<field name="external_object_field" eval="&quot;&quot;&quot;allow_self&quot;&quot;&quot;"/>
+		<field name="local_object_field" eval="&quot;&quot;&quot;allow_self&quot;&quot;&quot;"/>
+		<field name="synchronization" eval="True"/>
+		<field name="template_id" eval="clv_person_relation_type_clv_person_relation_type_template"/>
+		<field name="sequence" eval="10"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_clv_person_relation_type_template_object_field_handle_invalid_onchange" model="clv.external_sync.object_field">
+		<field name="external_object_field" eval="&quot;&quot;&quot;handle_invalid_onchange&quot;&quot;&quot;"/>
+		<field name="local_object_field" eval="&quot;&quot;&quot;handle_invalid_onchange&quot;&quot;&quot;"/>
+		<field name="inclusion" eval="True"/>
+		<field name="synchronization" eval="True"/>
+		<field name="template_id" eval="clv_person_relation_type_clv_person_relation_type_template"/>
+		<field name="sequence" eval="10"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_clv_person_relation_type_template_object_field_is_symmetric" model="clv.external_sync.object_field">
+		<field name="external_object_field" eval="&quot;&quot;&quot;is_symmetric&quot;&quot;&quot;"/>
+		<field name="local_object_field" eval="&quot;&quot;&quot;is_symmetric&quot;&quot;&quot;"/>
+		<field name="synchronization" eval="True"/>
+		<field name="template_id" eval="clv_person_relation_type_clv_person_relation_type_template"/>
+		<field name="sequence" eval="10"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_clv_person_relation_type_schedule" model="clv.external_sync.schedule">
+		<field name="name" eval="&quot;&quot;&quot;clv.person.relation.type (clv.person.relation.type)&quot;&quot;&quot;"/>
+		<field name="template_id" eval="clv_person_relation_type_clv_person_relation_type_template"/>
+	</record>
+	 
+	<record id="clv_external_sync_batch_member_clv_person_relation_type" model="clv.external_sync.batch.member">
+		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_00"/>
+		<field name="ref_id" ref="clv_person_relation_type_clv_person_relation_type_schedule"/>
+	</record>
+	 
+</odoo>

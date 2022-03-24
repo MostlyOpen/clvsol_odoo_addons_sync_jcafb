@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!-- Copyright (C) 2013-Today  Carlos Eduardo Vercelino - CLVsol
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+
+<odoo noupdate="0">
+ 
+	<record id="clv_person_relation_type_spouse" model="clv.person.relation.type">
+		<field name="name" eval="&quot;&quot;&quot;Spouse&quot;&quot;&quot;"/>
+		<field name="is_symmetric" eval="True"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_father" model="clv.person.relation.type">
+		<field name="name" eval="&quot;&quot;&quot;Father&quot;&quot;&quot;"/>
+		<field name="name_inverse" eval="&quot;&quot;&quot;Father of&quot;&quot;&quot;"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_mother" model="clv.person.relation.type">
+		<field name="name" eval="&quot;&quot;&quot;Mother&quot;&quot;&quot;"/>
+		<field name="name_inverse" eval="&quot;&quot;&quot;Mother of&quot;&quot;&quot;"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_responsible" model="clv.person.relation.type">
+		<field name="name" eval="&quot;&quot;&quot;Responsible&quot;&quot;&quot;"/>
+		<field name="name_inverse" eval="&quot;&quot;&quot;Responsible for&quot;&quot;&quot;"/>
+	</record>
+	 
+	<record id="clv_person_relation_type_careguiver" model="clv.person.relation.type">
+		<field name="name" eval="&quot;&quot;&quot;Caregiver&quot;&quot;&quot;"/>
+		<field name="name_inverse" eval="&quot;&quot;&quot;Caregiver of&quot;&quot;&quot;"/>
+	</record>
+	 
+</odoo>
