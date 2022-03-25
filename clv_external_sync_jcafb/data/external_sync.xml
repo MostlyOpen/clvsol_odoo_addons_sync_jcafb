@@ -4,10 +4,6 @@
 
 <odoo noupdate="0">
  
-	<record id="clv_external_sync_batch_default_00" model="clv.external_sync.batch">
-		<field name="name" eval="&quot;&quot;&quot;Default Batch [00]&quot;&quot;&quot;"/>
-	</record>
-	 
 	<record id="clv_external_sync_batch_default_02" model="clv.external_sync.batch">
 		<field name="name" eval="&quot;&quot;&quot;Default Batch [02]&quot;&quot;&quot;"/>
 	</record>
