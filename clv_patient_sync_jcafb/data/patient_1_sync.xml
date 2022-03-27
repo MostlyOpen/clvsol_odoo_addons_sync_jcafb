@@ -351,7 +351,7 @@
 	</record>
 	 
 	<record id="clv_external_sync_batch_member_clv_patient_1" model="clv.external_sync.batch.member">
-		<field name="external_sync_batch_id" ref="clv_external_sync_jcafb.clv_external_sync_batch_default_00"/>
+		<field name="external_sync_batch_id" ref="clv_external_sync.clv_external_sync_batch_default_00"/>
 		<field name="ref_id" ref="clv_patient_clv_patient_1_schedule"/>
 	</record>
 	 
