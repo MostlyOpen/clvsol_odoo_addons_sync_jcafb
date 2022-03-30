@@ -2,10 +2,10 @@
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
    :alt: License: AGPL-3
 
-===================
-Phase External Sync
-===================
+======================
+Document External Sync
+======================
 
-Phase External Sync Module used in CLVhealth-JCAFB Solution.
+Document External Sync Module used in CLVhealth-JCAFB Solution.
 
 Developed by `CLVsol <https://github.com/CLVsol>`_.
