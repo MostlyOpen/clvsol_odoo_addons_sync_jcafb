@@ -14,7 +14,7 @@
         'clv_external_sync',
     ],
     'data': [
-        'data/external_sync.xml',
+        # 'data/external_sync.xml',
         # 'data/external_sync_batch_exec_cron.xml',
     ],
     'demo': [],
