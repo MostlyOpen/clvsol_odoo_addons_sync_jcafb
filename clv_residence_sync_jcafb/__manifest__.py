@@ -11,13 +11,10 @@
     'license': 'AGPL-3',
     'website': 'https://github.com/CLVsol',
     'depends': [
-        'clv_residence',
-        'clv_external_sync',
+        'clv_residence_sync',
     ],
     'data': [
-        'data/residence_category_sync.xml',
-        'data/residence_marker_sync.xml',
-        'data/residence_1_sync.xml',
+        'data/residence_1_inc.xml',
         'data/residence_2_sync.xml',
     ],
     'demo': [],
