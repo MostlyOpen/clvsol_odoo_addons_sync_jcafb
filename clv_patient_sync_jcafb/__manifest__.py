@@ -11,15 +11,10 @@
     'license': 'AGPL-3',
     'website': 'https://github.com/CLVsol',
     'depends': [
-        'clv_patient',
-        'clv_external_sync',
+        'clv_patient_sync',
     ],
     'data': [
-        # 'data/patient_age_range.xml',
-        'data/patient_age_range_sync.xml',
-        'data/patient_category_sync.xml',
-        'data/patient_marker_sync.xml',
-        'data/patient_1_sync.xml',
+        'data/patient_1_inc.xml',
         'data/patient_2_sync.xml',
     ],
     'demo': [],
