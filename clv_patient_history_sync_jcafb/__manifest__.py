@@ -15,7 +15,7 @@
         'clv_external_sync',
     ],
     'data': [
-        'data/patient_history_1_sync.xml',
+        'data/patient_history_1_inc.xml',
         'data/patient_history_2_sync.xml',
     ],
     'demo': [],
