@@ -15,7 +15,7 @@
         'clv_external_sync',
     ],
     'data': [
-        'data/residence_history_1_sync.xml',
+        'data/residence_history_1_inc.xml',
         'data/residence_history_2_sync.xml',
     ],
     'demo': [],
