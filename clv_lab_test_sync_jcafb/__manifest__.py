@@ -22,6 +22,7 @@
         'data/lab_test_result_2_sync.xml',
         'data/lab_test_report_1_inc.xml',
         'data/lab_test_report_2_sync.xml',
+        'data/lab_test_export_xls_param_sync.xml',
     ],
     'demo': [],
     'test': [],
