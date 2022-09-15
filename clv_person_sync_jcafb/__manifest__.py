@@ -11,14 +11,9 @@
     'license': 'AGPL-3',
     'website': 'https://github.com/CLVsol',
     'depends': [
-        'clv_person_jcafb',
-        'clv_external_sync',
+        'clv_person_sync',
     ],
     'data': [
-        # 'data/person_age_range.xml',
-        'data/person_age_range_sync.xml',
-        'data/person_category_sync.xml',
-        'data/person_marker_sync.xml',
         'data/person_sync.xml',
     ],
     'demo': [],
