@@ -11,13 +11,9 @@
     'license': 'AGPL-3',
     'website': 'https://github.com/CLVsol',
     'depends': [
-        'clv_person_relation',
-        'clv_external_sync',
+        'clv_person_relation_sync',
     ],
     'data': [
-        # 'data/person_relation_type.xml',
-        # 'data/person_relation_setup.xml',
-        'data/person_relation_type_sync.xml',
         'data/person_relation_sync.xml',
     ],
     'demo': [],
