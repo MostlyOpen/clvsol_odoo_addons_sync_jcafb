@@ -26,6 +26,7 @@
         'data/verification_outcome_6_sync.xml',
         'data/verification_outcome_7_sync.xml',
         'data/verification_outcome_8_sync.xml',
+        'data/verification_outcome_9_sync.xml',
     ],
     'demo': [],
     'test': [],
