@@ -11,8 +11,7 @@
     'license': 'AGPL-3',
     'website': 'https://github.com/CLVsol',
     'depends': [
-        'clv_address_aux_jcafb',
-        'clv_external_sync',
+        'clv_address_aux_sync',
     ],
     'data': [
         'data/address_aux_sync.xml',
