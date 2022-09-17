@@ -14,12 +14,4 @@
 		<field name="enable_sequence_code_sync" eval="True"/>
 	</record>
 	 
-	<!--record id="clv_address_clv_address_template_object_field_is_residence" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;is_residence&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;is_residence&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="template_id" eval="clv_address_clv_address_template"/>
-		<field name="sequence" eval="10"/>
-	</record-->
-	 
 </odoo>
