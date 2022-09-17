@@ -14,36 +14,4 @@
 		<field name="enable_sequence_code_sync" eval="True"/>
 	</record>
 	 
-	<!--record id="clv_residence_clv_residence_2_sync_template_object_field_related_address_is_unavailable" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;related_address_is_unavailable&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;related_address_is_unavailable&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="template_id" ref="clv_residence_sync.clv_residence_clv_residence_2_sync_template"/>
-		<field name="sequence" eval="10"/>
-	</record-->
-	 
-	<!--record id="clv_residence_clv_residence_2_sync_schedule_object_field_related_address_is_unavailable" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;related_address_is_unavailable&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;related_address_is_unavailable&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="schedule_id" ref="clv_residence_sync.clv_residence_clv_residence_2_sync_schedule"/>
-		<field name="sequence" eval="10"/>
-	</record-->
-	 
-	<!--record id="clv_residence_clv_residence_2_sync_template_object_field_related_address_id" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;related_address_id&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;related_address_id&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="template_id" ref="clv_residence_sync.clv_residence_clv_residence_2_sync_template"/>
-		<field name="sequence" eval="10"/>
-	</record-->
-	 
-	<!--record id="clv_residence_clv_residence_2_sync_schedule_object_field_related_address_id" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;related_address_id&quot;&quot;&quot;"/>
-		<field name="local_object_field" eval="&quot;&quot;&quot;related_address_id&quot;&quot;&quot;"/>
-		<field name="synchronization" eval="True"/>
-		<field name="schedule_id" ref="clv_residence_sync.clv_residence_clv_residence_2_sync_schedule"/>
-		<field name="sequence" eval="10"/>
-	</record-->
-	 
 </odoo>
